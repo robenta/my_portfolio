@@ -483,8 +483,7 @@ section {
 --------------------------------------------------------------*/
 
 #skills .skills{
-  /* background-color: #DAA520; */
-  padding: 50px;
+  padding: 30px;
 }
 #skills .skills{
   transition: transform 0.4s ease; 
