@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 *{
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
   background-color: black !important;
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .hero-container h2{
   font-size: 15px !important;
@@ -311,7 +311,7 @@ section {
   position: relative;
 }
 .section-title h2 {
-  font-size: 45px;
+  font-size: 36px;
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 50px;
@@ -329,7 +329,7 @@ section {
   right: 0;
   z-index: 1;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 45px;
   text-transform: uppercase;
   line-height: 0;
 }
@@ -409,22 +409,8 @@ section {
 --------------------------------------------------------------*/
 .about p{
   color: #eef0f2;
-  font-size: 19px;
+  font-size: 16px;
 }
-.about .content h4 {
-  color: #999999;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  font-weight: 700;
-  font-size: 30px;
-}
-.about h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #999999;
-  text-transform: uppercase;
-}
-
 .about .icon-box {
   padding: 30px;
   position: relative;
@@ -434,6 +420,11 @@ section {
   text-align: center;
   border: 2px solid #DAA520;
   border-radius: 10px;
+}
+.about .icon-box p{
+  font-size: 17px !important;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .about .icon {
   margin: 0 auto 20px auto;
@@ -493,7 +484,7 @@ section {
   transform: scale(1.09);
 }
 .skills {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   border-radius: 10px;
   border: 2px solid #DAA520;
@@ -582,16 +573,18 @@ section {
 }
 .project-info h4 {
   margin: 0 0 5px;
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 18px;
 }
 .project-info p {
   margin: 0 0 10px;
-  font-size: 0.9rem;
+  font-size: 14px;
 }
 .project-card .btn{
   color: #DAA520;
   border: 2px solid #DAA520;
   font-weight: bold;
+  font-size: 14px;
 }
 .project-card .btn:hover{
   color: white;
@@ -599,7 +592,7 @@ section {
   background-color: #DAA520;
 }
 .github-link .btn{
-  font-size: 20px;
+  font-size: 16px;
   color: #DAA520;
   border: 2px solid #DAA520;
   font-weight: bold;
@@ -672,38 +665,38 @@ section {
 # Contact 
 --------------------------------------------------------------*/
 .contact p{
-  font-size: 25px;
-  color: #999999;
-  margin-top: 15px;
+  font-size: 16px;
+  color: white;
+  /* margin-top: 15px; */
 }
 .contact .section-title p{
-  font-size: 25px;
-  color: #999999;
-  margin-top: 50px;
+  font-size: 16px;
+  color: white;
+  line-height: 13px;
 }
 .contact .info-box {
-  color: #444444;
+  color: black;
   text-align: center;
   border: 1px solid white;  
-  padding: 20px 0 30px 0;
+  padding: 10px 0 20px 0;
 }
 .contact .info-box i.bx {
-  font-size: 20px;
+  font-size: 16px;
   color: #DAA520;
   border-radius: 50%;
-  padding: 10px;
+  padding: 8px;
   background: white;
 }
 .contact .info-box h3 {
-  font-size: 20px;
-  color: whitesmoke;
-  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
   margin: 15px 0;
 }
 .contact .info-box p {
   padding: 0;
   line-height: 24px;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
   color: #999999;
 }
@@ -720,7 +713,7 @@ section {
   transition: 0.3s;
   padding: 5px;
   border-radius: 50px;
-  border: 1px solid #dde1e4;
+  border: 1px solid white;
 }
 .emailbox a {
   text-decoration: none !important;
@@ -731,52 +724,8 @@ section {
   background: #DAA520;
 }
 .contact .email-form {
-  padding: 22.5px;
+  padding: 21px;
   border: 1px solid whitesmoke;  
-}
-.contact .email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-.contact .email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #DAA520;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .email-form .error-message br+br {
-  margin-top: 25px;
-}
-.contact .email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.contact .email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
 }
 .contact .email-form input,
 .contact .email-form textarea {
@@ -788,18 +737,13 @@ section {
 .contact .email-form textarea::focus {
   background-color: #DAA520;
 }
-.contact .email-form input {
-  padding: 10px 15px;
-}
-.contact .email-form textarea {
-  padding: 12px 15px;
-}
 .contact .email-form button[type=submit] {
-  padding: 10px 24px;
+  padding: 8px;
   border-radius: 5px;
-  margin-top: 15px;
+  margin-top: 13px;
   color: #DAA520;
   border: 2px solid #DAA520;
+  font-size: 16px;
   font-weight: bold;
   transition: transform 0.4s ease;
   background: none;
@@ -810,7 +754,6 @@ section {
   background-color: #DAA520;
   transform: scale(1.09);
 }
-
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -887,7 +830,7 @@ section {
   transform: scale(1.09);
 }
 .footer1 .social-links i.bx {
-  font-size: 40px;
+  font-size: 20px;
   color: #DAA520;
   border-radius: 50%;
   background: white;
@@ -902,7 +845,7 @@ section {
   color: #fff;
   font-size: 14px;
   text-align: center;
-  padding: 70px 0;
+  padding: 30px 0;
   position: relative;
 }
 .footer2::before {
@@ -932,7 +875,7 @@ section {
   transform: scale(1.09);
 }
 .footer2 .social-links i.bx {
-  font-size: 40px;
+  font-size: 20px;
   color: #DAA520;
   border-radius: 50%;
   background: white;
