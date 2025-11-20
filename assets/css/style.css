@@ -12,9 +12,6 @@ body {
 [data-aos] {
   overflow: hidden;
 }
-.hero-container h2{
-  font-size: 10px !important;
-}
 a {
   color: #DAA520;
   text-decoration: none;
@@ -238,15 +235,14 @@ h6,
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 58px;
+  font-size: 54px;
   font-family: 'Playfair Display', serif;
-  /* font-family: "Satisfy", serif; */
   color: #fff;
 }
 
 #hero h2 {
-  color: #eee;
-  font-size: 13px;
+  color: white;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -596,15 +592,15 @@ section {
   background-color: #DAA520;
 }
 .github-link .btn{
-  font-size: 16px;
-  color: #DAA520;
-  border: 2px solid #DAA520;
-  font-weight: bold;
+  font-size: 16px !important;
+  color: #DAA520 !important;
+  border: 2px solid #DAA520 !important;
+  font-weight: bold !important;
 }
 .github-link .btn:hover{
-  color: white;
-  border: 2px solid white;
-  background-color: #DAA520;
+  color: white !important;
+  border: 2px solid white !important;
+  background-color: #DAA520 !important;
 }
 
 
