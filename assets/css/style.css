@@ -315,10 +315,10 @@ section {
   position: relative;
 }
 .section-title h2 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding-bottom: 0;
   color: #eef0f2;
   position: relative;
@@ -327,13 +327,13 @@ section {
 .section-title span {
   position: absolute;
   font-family: "Raleway", sans-serif;
-  top: 80px;
+  top: 60px;
   color: rgb(34, 33, 33);
   left: 0;
   right: 0;
   z-index: 1;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 42px;
   text-transform: uppercase;
   line-height: 0;
 }
