@@ -514,7 +514,7 @@ section {
   background-image: url('/assets/img/nestore.png')
 }
 .project3{
-  background-image: url('/assets/img/portfolio.jpg')
+  background-image: url('/assets/img/portfolio_new.png')
 }
 .project4{
   background-image: url('/assets/img/admin.png')
@@ -598,7 +598,17 @@ section {
   border: 2px solid white;
   background-color: #DAA520;
 }
-
+.github-link .btn{
+  font-size: 20px;
+  color: #DAA520;
+  border: 2px solid #DAA520;
+  font-weight: bold;
+}
+.github-link .btn:hover{
+  color: white;
+  border: 2px solid white;
+  background-color: #DAA520;
+}
 
 
 .myinner3{
